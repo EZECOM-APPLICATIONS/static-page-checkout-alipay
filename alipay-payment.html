@@ -26,8 +26,35 @@
             width: 48px;
         }
 
-        .alipay-qr{
-            padding: 20px;
+        .alipay-qr {
+            padding: 45px 0px 12px 20px;
+        }
+
+        ul > li {
+            margin-left: 170px;
+            list-style-type: none;
+        }
+
+        ol > li {
+            margin-left: 85px;
+        }
+
+        .trans-container {
+            background-color: #f2edf9;
+            padding: 29px 23px 116px 19px;
+            margin: 17px;
+        }
+
+        .none-ol {
+            list-style-type: none;
+        }
+
+        .transaction-info, .total-amount {
+            margin-left: 60px;
+        }
+
+        .ezecom-color {
+            color: #6f4b95;
         }
     </style>
 </head>
@@ -48,44 +75,65 @@
     </div>
     <div class="wel">
         <div class="row">
-            <div class="col-md-7 alipay-qr">
-                <h2><img src="images/visa-card-logo.svg" alt="visa-card-icon" class="visa-card-logo">Alipay QR</h2>
-                <img src="images/alipay-qr.png" alt="alipay-qr-code">
+            <div class="col-md-6 alipay-qr">
+                <ul>
+                    <h2>
+                        <img src="images/visa-card-logo.svg" alt="visa-card-icon" class="visa-card-logo">
+                        <b>Alipay QR</b>
+                    </h2>
+                    <br>
+                    <li><img src="images/alipay-qr.png" alt="alipay-qr-code"></li>
+                    <br>
+                </ul>
+
+
                 <ol>
-                    <img src="images/question-mark.svg" alt="question-mark" class="question-mark"><h5>
-                    <b>How do i make Payment?</b></h5>
-                    <li>Simply download the Alipay mobile app to smartphone</li>
-                    <li>Open Alipay mobile app</li>
+                    <h5>
+                        <img src="images/question-mark.svg" alt="question-mark" class="question-mark">
+
+                        <b>How do i make Payment?</b></h5>
+                    <li>Simply download the <strong>Alipay</strong> mobile app to smartphone</li>
+                    <li>Open <strong>Alipay</strong> mobile <strong>app</strong></li>
                     <li>Select Scan</li>
-                    <li>Scan the QR code and prcessed to confirm</li>
+                    <li>Scan the <strong>QR</strong> code and prcessed to confirm</li>
+                    <br>
+
+                    <li class="none-ol">I have read and agreed to <a href=""><strong>iPay88 Privacy
+                        Statement</strong></a></li>
                 </ol>
-                <p>I have read and agreed to iPay88 Privacy Statement</p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="trans-container">
-                    <h2><img src="images/rolling-shop-transaction.svg" alt="rolling-shop-transaction"
-                             class="rolling-shop-transaction">Transaction Summary</h2>
+
+                    <h2>
+                        <img src="images/rolling-shop-transaction.svg" alt="rolling-shop-transaction"
+                             class="rolling-shop-transaction">
+                        <b>Transaction Summary</b>
+                    </h2>
                     <hr>
                     <div class="transaction-info">
                         <div class="">
                             <p class="color-secondary col">Payment ID: </p>
-                            <p class="col"> T0000124563256</p>
+                            <p class="col"> <strong>T0000124563256</strong></p>
                         </div>
                         <div class="">
                             <p class="color-secondary col">Payment of: </p>
-                            <p class="col"> EZECOM invoice payment</p>
+                            <p class="col"> <strong>EZECOM invoice payment</strong></p>
                         </div>
                         <div class="">
                             <p class="color-secondary col">Pay to: </p>
-                            <p class="col"> EZECOM/TELCOTECH</p>
+                            <p class="col"> <strong>EZECOM/TELCOTECH</strong></p>
                         </div>
                     </div>
                     <hr>
                     <div class="">
                         <h2>
                             <img src="images/paybill-total-amount.svg"
-                                 alt="paybill-total-amount" class="paybill-total-amount">Total Amount</h2>
-                        <h3 class="col total-amount ezecom-color">USD<span>100.00</span></h3>
+                                 alt="paybill-total-amount" class="paybill-total-amount"><strong>Total Amount</strong>
+                        </h2>
+                        <h3 class="col total-amount ezecom-color">
+                            <strong>USD<span>100.00</span></strong>
+                        </h3>
                     </div>
 
                 </div>
